@@ -243,15 +243,15 @@ print(Fore.MAGENTA + """
                          __/ |                    
                         |___/                     
 """ + Style.RESET_ALL)
-print(Fore.BLUE + "\n[İ] " +
-      LANG["description_message"] + "\n" + Style.RESET_ALL)
-print(Fore.BLUE + "\n[İ] " +
-      LANG["developer_message"] + "\n" + Style.RESET_ALL)
-print(Fore.BLUE + "\n[İ] " + LANG["github_link_message"]
-      .format(link="www."), end="" + Style.RESET_ALL)
-print(Fore.YELLOW + "\n[!] " +
-      LANG["license_message"] + "\n" + Style.RESET_ALL)
-print(Fore.RED + "\n[!] " + LANG["warning_message"] + "\n" + Style.RESET_ALL)
+print(Fore.BLUE + "[İ] " +
+      LANG["description_message"] + Style.RESET_ALL)
+print(Fore.BLUE + "[İ] " +
+      LANG["developer_message"].format(developer="anonimbiri") + Style.RESET_ALL)
+print(Fore.BLUE + "[İ] " + LANG["github_link_message"]
+      .format(link="www.") + "\n", end="" + Style.RESET_ALL)
+print(Fore.YELLOW + "[!] " +
+      LANG["license_message"].format(license="MIT License") + Style.RESET_ALL)
+print(Fore.RED + "[!] " + LANG["warning_message"] + "\n" + Style.RESET_ALL)
 
 # Instagram kullanıcı adı ve şifresi
 username = config['username']
