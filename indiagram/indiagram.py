@@ -146,7 +146,7 @@ print(Fore.BLUE + "[İ] " +
 print(Fore.BLUE + "[İ] " +
       LANG["developer_message"].format(developer="anonimbiri") + Style.RESET_ALL)
 print(Fore.BLUE + "[İ] " + LANG["github_link_message"]
-      .format(link="www.") + "\n", end="" + Style.RESET_ALL)
+      .format(link="https://github.com/anonimbiri/indiagram") + "\n", end="" + Style.RESET_ALL)
 print(Fore.YELLOW + "[!] " +
       LANG["license_message"].format(license="MIT License") + Style.RESET_ALL)
 print(Fore.RED + "[!] " + LANG["warning_message"] + "\n" + Style.RESET_ALL)
@@ -248,7 +248,7 @@ print(Fore.BLUE + "[İ] " +
 print(Fore.BLUE + "[İ] " +
       LANG["developer_message"].format(developer="anonimbiri") + Style.RESET_ALL)
 print(Fore.BLUE + "[İ] " + LANG["github_link_message"]
-      .format(link="www.") + "\n", end="" + Style.RESET_ALL)
+      .format(link="https://github.com/anonimbiri/indiagram") + "\n", end="" + Style.RESET_ALL)
 print(Fore.YELLOW + "[!] " +
       LANG["license_message"].format(license="MIT License") + Style.RESET_ALL)
 print(Fore.RED + "[!] " + LANG["warning_message"] + "\n" + Style.RESET_ALL)
