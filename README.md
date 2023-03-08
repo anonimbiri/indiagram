@@ -6,7 +6,7 @@
 2. Run `Start.bat` to start the program
 3. If necessary, run `Install.bat` to install any dependencies
 
-Note: Using this program is at your own risk.
+Note: Please note that using this program is at your own risk and may result in your account being suspended.
 
 ## Features
 
